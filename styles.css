@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.app-name {
+    font-size: 3.6rem;
+    letter-spacing: 1px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* Header Container */
+.header-container {
+    position: relative;
+    margin: 2rem 10rem;
+}
+
+.header-img {
+    border-radius: 1rem;
+}
+
+.header-img-overlay {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    top: 6rem;
+}
+
+.header-img-text {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 7rem;
+    color: #F5F2E7;
+    margin-bottom: 5rem;
+}
+
+/* Category Container */
+.category-text {
+    margin: 5rem 0;
+}
+.category-container{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.card-img {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color2);
+    color: var(--white-color);
+    text-align: center;
+    padding: 3rem;
+    margin-top: 10rem;
+}
+.footer-icons {
+    color: var(--white-color);
+    display: inline;
+    font-size: 2.4rem;
+}
+.red-color {
+    color: var(--error-color);
+}
+
+@media screen and (max-width:786px) {
+    .header-img-overlay {
+        top: 2rem;
+    }
+    .header-img-text{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:480px) {
+    .header-img-text{
+        font-size: 3.2rem;
+    }
+}
