@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://flora-ui.netlify.app/src/app.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>FloraQuiz | Home</title>
+    
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav class="flex-r">
+        <span class="m1 p1 m-right-auto app-name">floraQuiz<i class="fa-solid fa-question"></i></span>
+        <div class="m1 p1 align-center">
+            <a href="./index.html" class="btn btn-link text-lg text-decor-none"><i class="fa-solid fa-house-chimney"></i>Home</a>
+            <a href="" class="btn btn-link text-lg text-decor-none"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+        </div>
+    </nav>
+
+    <!-- Header Container -->
+    <div class="header-container">
+        <img class="header-img responsive-img" src="./assets/images/gardening.jpg" alt="Gardening">
+        <div class="header-img-overlay">
+            <p class="header-img-text text-bold-weight">Are you a true garderner?</p>
+            <a href="#category" class="btn btn-primary text-lg text-decor-none">Explore Quizes</a>
+        </div>
+    </div>
+
+    <!-- Category Container -->
+    <div>
+        <h3 id="category" class="category-text text-center">Categories</h3>
+        <div class="category-container flex-r">
+            <div class="card vertical-card1-container flex-c align-center">
+                <img class="card-img" src="./assets/images/basic-gardening.jpg" alt="Basic Gardening" >
+                <h5 class="">Basic Gardening</h5>
+                <a href="./index.html"><button class="m1 btn btn-primary">Play Now</button></a> 
+            </div>
+            <div class="card vertical-card1-container flex-c align-center">
+                <img class="card-img" src="./assets/images/indoor plant.jpg" alt="Indoor Plants" >
+                <h5 class="">Indoor Plants</h5>
+                <a href="./index.html"><button class="m1 btn btn-primary">Play Now</button></a> 
+            </div>
+            <div class="card vertical-card1-container flex-c align-center">
+                <img class="card-img" src="./assets/images/gardening tools.jpg" alt="Gardening Tools" >
+                <h5 class="">Gardening Tools</h5>
+                <a href="./index.html"><button class="m1 btn btn-primary">Play Now</button></a> 
+            </div>
+            <div class="card vertical-card1-container flex-c align-center">
+                <img class="card-img" src="./assets/images/fertilizers.jfif" alt="Fertilizers" >
+                <h5 class="">Fertilizers</h5>
+                <a href="./index.html"><button class="m1 btn btn-primary">Play Now</button></a> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with <i class="red-color fas fa-heart"></i> by Vrinda Mahajan </p>
+        <ul class="m2 list-non-bullet">
+            <li class="p1 inline"><a class="footer-icons" href="https://github.com/vrinda-mahajan"><i class="fab fa-github"></i></a></li>
+            <li class="p1 inline"><a class="footer-icons" href="https://twitter.com/vrinda_mahajan"><i class="fab fa-twitter"></i></a></li>
+            <li class="p1 inline"><a class="footer-icons" href="https://www.linkedin.com/in/vrinda-mahajan-7a2b2a20b/"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <div>© copyright 2022 Flora UI</div>
+    </footer>
 </body>
 </html>
