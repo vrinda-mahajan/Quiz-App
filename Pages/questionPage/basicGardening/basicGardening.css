@@ -4,10 +4,14 @@
     --option-bg-color:#557C55;
     --option-bg-color-hover:#496b49;
 }
+.question-section {
+    min-height: 100%;
+}
 
 .question-container {
     background-color: var(--background-color);
     border-radius: 1rem;
+    width: 50%;
 }
 
 .question-header {
@@ -35,4 +39,10 @@
 
 .question-option:focus {
     background-color: var(--primary-color2);
+}
+
+@media screen and (max-width:480px){
+    .question-section {
+        margin-top: 10rem;
+    }
 }
