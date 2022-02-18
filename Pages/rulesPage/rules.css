@@ -6,7 +6,7 @@
     box-shadow: 0 0 3px 2px var(--box-shadow);
     margin: auto;
     margin-top: 5.6rem;
-    width: 54rem;   
+    width: 50%;   
 }
 .rules-img {
     width: 8rem;
@@ -18,5 +18,8 @@
 @media screen and (max-width:480px){
     html{
         font-size: 50%;
+    }
+    .rules-container {
+        width: 90%;
     }
 }
